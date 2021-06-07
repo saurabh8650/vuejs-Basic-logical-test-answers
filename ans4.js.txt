@@ -1,0 +1,3 @@
+const userAction = async () => {
+  const response = await fetch('www.example.com/api/get/1');
+  const myJson = await response.json();
